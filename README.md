@@ -37,26 +37,26 @@ A complete video demonstration of the website's features, navigation, and functi
 
 ### 🚀 Getting Started: Setting Up the Website Locally
 
-Since this website was developed on a local server, follow these steps to set it up in your own local environment.
+Since this website was developed on a local server, follow these steps to set it up in own local environment.
 
 > **Prerequisites:**
-> You need a local server environment installed on your computer. **[XAMPP](https://www.apachefriends.org/index.html)** is a great free option that includes Apache (web server) and MySQL (database).
+> A local server environment is needed to be installed on computer. **[XAMPP](https://www.apachefriends.org/index.html)** is a great free option that includes Apache (web server) and MySQL (database).
 
 **Step-by-Step Guide:**
 
-1.  **🖥️ Start Your Local Server**
+1.  **🖥️ Start Local Server**
     -   Open the XAMPP Control Panel.
     -   Start the **Apache** and **MySQL** services.
 
 2.  **📂 Download and Place the Website Files**
     -   Download the **`myblog.zip`** (108 MB) file from the link provided in the `File Structure` section above.
     -   Unzip the downloaded file. This will create a folder named `myblog`.
-    -   Move the entire `myblog` folder into the `htdocs` directory inside your XAMPP installation folder (e.g., `C:/xampp/htdocs/`).
+    -   Move the entire `myblog` folder into the `htdocs` directory inside the XAMPP installation folder (e.g., `C:/xampp/htdocs/`).
 
 3.  **🗃️ Create and Import the Database**
-    -   Open your web browser and go to `http://localhost/phpmyadmin`.
+    -   Open web browser and go to `http://localhost/phpmyadmin`.
     -   Click on **New** to create a new database. Name it **`myblogdb`** and click "Create".
-    -   Select the `myblogdb` database you just created from the left-hand sidebar.
+    -   Select the `myblogdb` database that just created from the left-hand sidebar.
     -   Click on the **Import** tab at the top.
     -   Click "Choose File" and select the **`myblogdb.sql`** file from this repository.
     -   Scroll down and click **Go** to start the import. Wait for it to complete.
@@ -64,7 +64,7 @@ Since this website was developed on a local server, follow these steps to set it
 4.  **🔗 Connect WordPress to the Database**
     -   Navigate to the website files folder: `C:/xampp/htdocs/myblog`.
     -   Find the file named **`wp-config.php`** and open it in a text editor.
-    -   Update the following lines to match your local database settings (for a default XAMPP setup, the user is `root` with no password):
+    -   Update the following lines to match the local database settings (for a default XAMPP setup, the user is `root` with no password):
         ```php
         /** The name of the database for WordPress */
         define( 'DB_NAME', 'myblogdb' );
@@ -78,7 +78,7 @@ Since this website was developed on a local server, follow these steps to set it
     -   Save and close the `wp-config.php` file.
 
 5.  **🎉 View the Website!**
-    -   Open your web browser and navigate to **`http://localhost/myblog`**.
+    -   Open web browser and navigate to **`http://localhost/myblog`**.
     -   The "Flavors of Malaysia" website should now be running locally!
 <br>
 
