@@ -20,7 +20,7 @@ This project is a one-page website developed using WordPress and Elementor to pr
 <br>
 
 ### 🎥 Functional Walkthrough
-A complete video demonstration of the website's features, navigation, and functionality is available on [here](https://youtu.be/PU_guG74S0U).
+A complete video demonstration of the website's features, navigation, and functionality is available at [here](https://youtu.be/PU_guG74S0U).
 
 <p align="center">
     <a href="https://youtu.be/PU_guG74S0U">
@@ -30,14 +30,14 @@ A complete video demonstration of the website's features, navigation, and functi
 <br>
 
 ### 📁 File Structure
-- **`myblog.zip`**: A compressed archive containing all the WordPress website files (`wp-content`, `wp-admin`, etc.).
+- **`myblog.zip` (108 MB)**: A compressed archive with all WordPress files. Due to its size, this file is hosted externally. [➡️ Download Website Files Here](https://drive.google.com/file/d/1fqK9MaGHuMH7PN-NIqPw0iNFVoRMRNN5/view?usp=sharing)
 - **`myblogdb.sql`**: The SQL database backup file containing all the website's content, settings, and user data.
 - **`Report.pdf`**: The full academic report detailing the design, implementation, and features of each website section.
 <br>
 
 ### 🚀 Getting Started: Setting Up the Website Locally
 
-Since this website was developed on a local server, follow these steps to set it up in your own local environment. The easiest way to see the live, interactive site is to replicate the setup.
+Since this website was developed on a local server, follow these steps to set it up in your own local environment.
 
 > **Prerequisites:**
 > You need a local server environment installed on your computer. **[XAMPP](https://www.apachefriends.org/index.html)** is a great free option that includes Apache (web server) and MySQL (database).
@@ -48,8 +48,9 @@ Since this website was developed on a local server, follow these steps to set it
     -   Open the XAMPP Control Panel.
     -   Start the **Apache** and **MySQL** services.
 
-2.  **📂 Place the Website Files**
-    -   Unzip the **`myblog.zip`** file. This will create a folder named `myblog`.
+2.  **📂 Download and Place the Website Files**
+    -   Download the **`myblog.zip`** (108 MB) file from the link provided in the `File Structure` section above.
+    -   Unzip the downloaded file. This will create a folder named `myblog`.
     -   Move the entire `myblog` folder into the `htdocs` directory inside your XAMPP installation folder (e.g., `C:/xampp/htdocs/`).
 
 3.  **🗃️ Create and Import the Database**
